@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/studyblog/',
   // 页面标题
   title: '乱舞春秋·Will',
   // 网页描述
@@ -19,7 +20,7 @@ module.exports = {
     // 所有页面自动生成侧边栏
     sidebar: 'auto',
     // 仓库地址
-    repo: 'https://github.com/wangtunan/vuepress-blog-demo',
+    repo: 'https://github.com/DaveGeneral/studyblog/',
     // 仓库链接label
     repoLabel: 'Github',
     // 编辑链接
