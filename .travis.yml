@@ -7,4 +7,11 @@ cache:
     - node_modules
 script:
   - ./deploy.sh
-branch: master
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: docs/.vuepress/dist
+  github_token: $GITHUB_TOKEN 
+  keep_history: true
+  on:
+    branch: master 
