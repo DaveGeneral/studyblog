@@ -18,7 +18,13 @@ module.exports = {
     // 最后更新时间
     lastUpdated: '最后更新时间',
     // 所有页面自动生成侧边栏
-    sidebar: 'auto',
+    sidebar: {
+      '/research/OMR乐谱识别/': [
+        '',     /* /foo/ */
+        'one',  /* /foo/one.html */
+        'moonlight'   /* /foo/two.html */
+      ]
+      },
     // 仓库地址
     repo: 'https://github.com/DaveGeneral/studyblog/',
     // 仓库链接label
@@ -38,12 +44,18 @@ module.exports = {
       },
       { text: '数据结构和算法', link: '/algorithm/'},
       { text: '效率提升实用工具箱', items: [
-          { text: '各种命令-82原则', link: '/vue/'},
-          { text: '配置', link: '/books/你不知道的javascript中'},
+          { text: '各种命令-82原则', link: '/tools4efficiency/cmd-in-common-use'},
+          { text: '配置', link: '/tools4efficiency/配置/'},
           { text: '你不知道的JavaScript(下)', link: '/books/你不知道的javascript下'}
         ]
     },
-      { text: 'Webpack',link: '/webpack/'},
+      { text: '科研',items: [
+          { text: 'OMR乐谱识别', items: [
+          { text: 'moonlight', link: '/research/OMR乐谱识别/moonlight/'},
+        ]},
+          { text: '你不知道的JavaScript(中)', link: '/books/你不知道的javascript中'},
+          { text: '你不知道的JavaScript(下)', link: '/books/你不知道的javascript下'}
+        ]},
       { text: 'VuePress',link: '/vuepress/'},
       { text: '基础配置功能',link: '/common/'}
   ]},
@@ -56,4 +68,23 @@ module.exports = {
       }
     }
   }
+}
+
+function getResearchSidebar (groupA, groupB) {
+  return [
+    {
+      title: groupA,
+      collapsable: false,
+      children: [
+        ''
+      ]
+    },
+    {
+      title: groupB,
+      collapsable: false,
+      children: [
+        ''
+      ]
+    }
+  ]
 }
