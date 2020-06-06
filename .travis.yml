@@ -1,12 +1,10 @@
 language: node_js
-sudo: required
 node_js:
-  - "lts/*"
-cache:
-  directories:
-    - node_modules
+  - lts/*
+install:
+  - yarn install # npm ci
 script:
-  - ./deploy.sh
+  - yarn docs:build # npm run docs:build
 deploy:
   provider: pages
   skip_cleanup: true
@@ -14,4 +12,4 @@ deploy:
   github_token: $GITHUB_TOKEN 
   keep_history: true
   on:
-    branch: master 
+    branch: master #这里指的是部署前的源文件分支
