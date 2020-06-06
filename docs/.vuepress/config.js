@@ -19,7 +19,7 @@ module.exports = {
     lastUpdated: '最后更新时间',
     // 所有页面自动生成侧边栏
     sidebar: {
-      '/research/OMR乐谱识别/': [
+      '/research/OMR乐谱识别/moonlight': [
         '',     /* /foo/ */
         'one',  /* /foo/one.html */
         'moonlight'   /* /foo/two.html */
