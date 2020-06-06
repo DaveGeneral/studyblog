@@ -37,7 +37,12 @@ module.exports = {
         ]
       },
       { text: '数据结构和算法', link: '/algorithm/'},
-      { text: '效率提升实用工具箱', link: '/vue/'},
+      { text: '效率提升实用工具箱', items: [
+          { text: '各种命令-82原则', link: '/vue/'},
+          { text: '配置', link: '/books/你不知道的javascript中'},
+          { text: '你不知道的JavaScript(下)', link: '/books/你不知道的javascript下'}
+        ]
+    },
       { text: 'Webpack',link: '/webpack/'},
       { text: 'VuePress',link: '/vuepress/'},
       { text: '基础配置功能',link: '/common/'}
