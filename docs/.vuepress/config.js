@@ -22,7 +22,7 @@ module.exports = {
       '/research/OMR乐谱识别/moonlight/': [
         '',     /* /foo/ */
         'one',  /* /foo/one.html */
-        'moonlight'   /* /foo/two.html */
+        'two'   /* /foo/two.html */
       ]
       },
     // 仓库地址
