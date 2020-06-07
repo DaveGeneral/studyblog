@@ -19,11 +19,15 @@ module.exports = {
     lastUpdated: '最后更新时间',
     // 所有页面自动生成侧边栏
     sidebar: {
-      '/research/OMR乐谱识别/moonlight/': [
-        '',     /* /foo/ */
-        'one',  /* /foo/one.html */
-        'two'   /* /foo/two.html */
-      ]
+      '/research/':{
+      	'./OMR乐谱识别/':{
+      		'./moonlight/': [
+       	 		'',     /* /foo/ */
+       	 		'one',  /* /foo/one.html */
+        		'two'   /* /foo/two.html */
+     			 ]
+     		}
+     	}
       },
     // 仓库地址
     repo: 'https://github.com/DaveGeneral/studyblog/',
@@ -52,6 +56,8 @@ module.exports = {
       { text: '科研',items: [
           { text: 'OMR乐谱识别', items: [
           { text: 'moonlight', link: '/research/OMR乐谱识别/moonlight/'},
+          { text: 'research', link: '/research/'},
+          { text: 'OMR', link: '/research/OMR乐谱识别/'}
         ]},
           { text: '你不知道的JavaScript(中)', link: '/books/你不知道的javascript中'},
           { text: '你不知道的JavaScript(下)', link: '/books/你不知道的javascript下'}
