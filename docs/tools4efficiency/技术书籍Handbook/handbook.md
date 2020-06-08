@@ -1,31 +1,22 @@
 # 技术书籍handbook
 ## python
 ### pandas使用笔记
-http://skyrover.me/2016/12/08/Pandas%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/
-
-https://blog.csdn.net/ls13552912394/article/details/79349809
-
-https://www.jianshu.com/p/f5d6423709fc
-
+1. <http://skyrover.me/2016/12/08/Pandas%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/>
+2. <https://blog.csdn.net/ls13552912394/article/details/79349809>
+3. <https://www.jianshu.com/p/f5d6423709fc>
 ### python中的分组函数
-https://www.cnblogs.com/dreamer-fish/p/5522687.html
+1. <https://www.cnblogs.com/dreamer-fish/p/5522687.html>
 ### scrapy document
-https://doc.scrapy.org/en/latest/
+1. <https://doc.scrapy.org/en/latest/>
 ### itertools
-https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001415616001996f6b32d80b6454caca3d33c965a07611f000
-
+1. <https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001415616001996f6b32d80b6454caca3d33c965a07611f000>
 ## Mongodb
-
 ## nodejs
 ### 教程
-http://www.runoob.com/nodejs/nodejs-tutorial.html
-
+1. <http://www.runoob.com/nodejs/nodejs-tutorial.html>
 ## Bazel
-
 ## Linux
-http://www.runoob.com/linux/linux-remote-login.html
-
+1. <http://www.runoob.com/linux/linux-remote-login.html>
 ## Theano
-
 ### windows安装
-http://deeplearning.net/software/theano/install_windows.html
+1. <http://deeplearning.net/software/theano/install_windows.html>

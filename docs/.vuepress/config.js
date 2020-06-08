@@ -28,6 +28,9 @@ module.exports = {
       '/tools4efficiency/技术书籍Handbook/': [
         'handbook'
       ],
+      '/tools4efficiency/优秀博客/': [
+        ''
+      ],
       '/research/OMR乐谱识别/moonlight/': [
             '',
             'one',
@@ -73,6 +76,7 @@ module.exports = {
           { text: '频繁使用命令', link: '/tools4efficiency/各种常用命令/cmd-in-common-use'},
           { text: '频繁使用配置', link: '/tools4efficiency/各种配置/configure-in-common-use'},
           { text: '技术书籍handbook', link: '/tools4efficiency/技术书籍handbook/handbook'},
+          { text: '优秀博客', link: '/tools4efficiency/优秀博客/'},
 
         ]
     },
