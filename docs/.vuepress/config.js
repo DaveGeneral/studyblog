@@ -64,7 +64,7 @@ module.exports = {
     editLinkText: '编辑此页',
     // 导航
     nav: [
-      { text: '面试',link: '/interview/'},
+      { text: '小打卡工作沉淀',link: '/小打卡工作沉淀/'},
       { text: '工作日常', items: [
           { text: '你不知道的JavaScript(上)', link: '/books/你不知道的javascript上'},
           { text: '你不知道的JavaScript(中)', link: '/books/你不知道的javascript中'},
